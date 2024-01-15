@@ -5,6 +5,7 @@
   body{
     font-family: 'Mulish', sans-serif;
     background: #FFF;
+    padding:40px 100px 110px 80px ;
     /* width: 1440px;
     height: 6940px; */
   }
@@ -115,6 +116,7 @@ padding: 16px;
     font-weight: 700;
     padding: 16px;
 }
+/* button aria styles  */
 .btn-aria{
     display: inline-flex;
     padding: 16px;
@@ -127,6 +129,37 @@ padding: 16px;
     
 }
 
+.primary-btn a{
+    text-decoration: none;
+    color:#fff;
 
+}
+.primary-btn{
+ 
+    border-radius: 8px;
+    background-color: #FF5400;
+    width: 20%;
+    text-align: center;
+    padding: 25px;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
 
   /* banner related style  stop */
+  /* sec-2 related styles  start */
+
+.section-2{
+    display: flex;
+    margin-top:6.25rem ;
+}
+.our-popular{
+    margin-right: 6.25rem;
+}
+
+
+
+
+
+
+  /* sec-2 related styles  stop */
