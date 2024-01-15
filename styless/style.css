@@ -1,0 +1,63 @@
+/* font size related style  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,800&display=swap');
+  
+  body{
+    font-family: 'Mulish', sans-serif;
+    background: #FFF;
+    /* width: 1440px;
+    height: 6940px; */
+  }
+
+
+  /* menu related style start  */
+
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .uniq-name{
+    color:#FF5400 ;
+}
+.top-site-heading{
+    display: flex;
+    /* border: 1px solid gold; */
+    text-align: center;
+    align-items: center;
+    gap: 1.8rem;    
+}
+.top-site-heading h1{
+    font-size: 2.25rem;
+}
+
+.top-site-heading img{
+    width: 100%;  
+}
+.menu-bar{
+    display: flex 
+}
+.menu-bar a{
+    margin-left: 44px;
+    text-decoration:none; 
+    color: #424247;
+}
+#menu-btn{
+    color:  #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+  /* menu related style stop  */
+
+
+  /* banner related style  start */
+
+
+
+
+
+  /* banner related style  stop */
