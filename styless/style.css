@@ -408,3 +408,7 @@ margin-bottom:6.875rem ;
  
 }
 /* footer section styles stop */
+
+.hide{
+  display: none;
+}
