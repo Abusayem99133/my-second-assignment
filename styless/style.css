@@ -6,10 +6,19 @@
     font-family: 'Mulish', sans-serif;
     background: #FFF;
     padding:40px 100px 110px 80px ;
-    /* width: 1440px;
-    height: 6940px; */
+    width: 1440px;
+    height: 6940px;
   }
 
+/* shared styles  */
+
+.head-2{
+    color: #131318;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 800;
+
+}
 
   /* menu related style start  */
 
@@ -157,9 +166,104 @@ padding: 16px;
     margin-right: 6.25rem;
 }
 
-
-
-
-
-
   /* sec-2 related styles  stop */
+
+  /* chose your destination start */
+
+  .head-1-2{
+    color:#131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  .item-description-2{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center; 
+    font-size: 16px;
+    font-weight: 400;
+   
+  }
+  .ractanagel-img{
+    display: flex;
+    margin-top: 48px;
+    gap: 1.5rem;
+    
+  }
+  .ract-2{
+    margin-left: 140px;
+  }
+.ractanagel-img img{
+  width: 100%;
+ 
+}
+.img-title{
+  color: #FFF;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 240px;
+
+}
+.img-title-1{
+  color: #FFF;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 860px;
+}
+.img-div-2{
+  display: flex;
+  margin-top: 1.5rem;
+  gap:1.5rem
+}
+.img-div-2 h2{
+
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+
+}
+.img-title-2{
+  color: #FFF;
+position: absolute;
+margin-left: 130px;
+margin-top: 120px;
+
+
+}
+.img-title-3{
+color: #FFF;
+position: absolute;
+margin-top: 120px;
+margin-left:540px;
+
+}
+.img-title-4{
+color: #FFF;
+position: absolute;
+margin-top: 120px;
+margin-left: 980px;
+}
+.img-div-3{
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 1.5rem;
+}
+.img-div-3 h2{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+
+}
+.img-title-5{
+  color: #FFF;
+  position:absolute;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+.img-title-6{
+  color: #FFF;
+  position:absolute;
+  margin-top: 120px;
+  margin-left: 760px;
+}
+
+  /* chose your destination stop */
