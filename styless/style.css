@@ -307,6 +307,7 @@ background: rgba(233, 68, 68, 0.05);
   display: flex;
   margin-top:6.25rem ;
   gap: 1.5rem;
+justify-content: center;
 
   }
   .newsletter-description-1{
@@ -323,14 +324,14 @@ background: rgba(233, 68, 68, 0.05);
     background: #FF5400;
   }
 .ns-item{
-  color: #FFF;
+  /* color: #FFF; */
   text-align: center;
   font-size: 32px;
   font-weight: 800;
-  margin-left: 120px;
-  transform: rotate(-19.628deg);
-  border-radius: 16px;
-  background: #FF5400;
+  /* margin-left: 120px; */
+  /* transform: rotate(-19.628deg); */
+  /* border-radius: 16px; */
+  /* background: #FF5400; */
 
 }
 .ns-btn-1{
@@ -359,3 +360,51 @@ background: #FF5400; */
 
 
   /* newsletter content style stop  */
+/* footer section styles start */
+
+.footer-header{
+  background: rgba(19, 19, 24, 0.05);
+  text-align: center;
+  margin-top:6.25rem ;
+  width: 1440px;
+  height: 502px;
+
+}
+
+.top-site-heading-2{
+  display: flex;
+  /* border: 1px solid gold; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6.875rem;
+ 
+
+  gap: 1.8rem;    
+}
+.footer-description{
+  color: #5A5A5D;
+text-align: center;
+margin-bottom: 2rem;
+font-size: 16px;
+font-weight: 400;
+
+}
+.social-c{
+display: flex;
+justify-content: center;
+gap: 10px;
+
+}
+hr{
+  margin-top:3.125rem ;
+  width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+margin-bottom:6.875rem ;
+}
+.last-footer{
+  margin-top: 3,125rem;
+ 
+}
+/* footer section styles stop */
