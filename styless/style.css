@@ -300,3 +300,30 @@ background: rgba(233, 68, 68, 0.05);
 }
 
   /* card item stop  */
+  /* newsletter content style start  */
+
+.newsletter-content{
+  display: flex;
+  margin-top:6.25rem ;
+  gap: 1.5rem;
+  }
+  .newsletter-description-1{
+    border-radius: 16px;
+  border: 1px solid #FF5400;
+  padding: 1.9rem;
+  }
+  .btn-aria-1{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    width: 60%;
+    border-radius: 8px;
+    background: #FF5400;
+  }
+
+
+
+
+
+
+  /* newsletter content style stop  */
