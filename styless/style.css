@@ -530,7 +530,22 @@ margin-bottom:6.875rem ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-top: 50px;
 
+}
+.deals-discounts-parent-1{
+    background-image: url("../Images/Group\ 40.png");
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+
+}
+.deals-discounts-parent-1 > div{
+    width: 50%;
 }
 .deals-discounts-parent > div{
     width: 50%;
