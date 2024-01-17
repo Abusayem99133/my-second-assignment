@@ -2,12 +2,22 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,800&display=swap');
   
-  body{
-    font-family: 'Mulish', sans-serif;
-    background: #FFF;
-    padding:40px 100px 110px 80px ;
-    width: 1440px;
-    height: 6940px;
+  html{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      
+    }
+    body{
+        font-family: 'Mulish', sans-serif;
+        background: #FFF;
+        padding:40px 100px 110px 80px ;
+        width: 1440px;
+        /* height: 6940px; */
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        margin: auto;
   }
 
 /* shared styles  */
@@ -253,6 +263,24 @@ margin-left: 980px;
   font-weight: 800;
 
 }
+
+
+.img-div {
+    position: relative;
+    top: 0;
+  }
+/* .img-div h2 {
+    position: absolute;
+    top: 0;
+  } */
+  .img-div h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+  }
 .img-title-5{
   color: #FFF;
   position:absolute;
@@ -288,20 +316,54 @@ border: 1px solid rgba(41, 206, 246, 0.20);
 background: rgba(41, 206, 246, 0.05);
 }
 
-.card-details-3{
-  justify-content: center;
-  margin: auto;
+.card-details-3s{
+  /* justify-content: center;
+  margin: auto; */
   padding: 2rem;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   border-radius: 16px;
-  width: 570px;
+  /* width: 570px; */
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
+width: 100%;
 }
+
+.newsletter-description-1 input{
+    max-width: 500px;
+    width: 100%;
+height: 52px;
+flex-shrink: 0;
+
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: 0;
+padding-left: 15px;
+}
+
+.btn-aria-1{
+    max-width: 393px;
+    width: 100%;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+}
+
+/* 
+.card-details-3s{
+    border: 1px solid rgba(233, 68, 68, 0.20)  ;
+    background: rgba(233, 68, 68, 0.05)  ;
+    width: 100%;
+   } */
 
   /* card item stop  */
   /* newsletter content style start  */
-
+  .card-item{
+    flex-direction: row;
+  }
+  .card-item div{
+    width: 50%;
+  }
 
 .newsletter-content{
   display: flex;
@@ -366,7 +428,8 @@ background: #FF5400; */
   background: rgba(19, 19, 24, 0.05);
   text-align: center;
   margin-top:6.25rem ;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   height: 502px;
 
 }
@@ -398,10 +461,44 @@ gap: 10px;
 }
 hr{
   margin-top:3.125rem ;
-  width: 872px;
+  max-width: 872px;
+  width: 100%;
 height: 1px;
 background: rgba(19, 19, 24, 0.10);
 margin-bottom:6.875rem ;
+}
+.newsletter-content > div{
+    /* width: 100%; */
+}
+
+.newslatter-images{
+    position: relative;
+}
+
+.ns-item{
+    position: absolute;
+    bottom: 40px;
+    right: 5px;
+    background-color: #FF5400;
+    border-radius: 15px;
+    padding: 15px;
+
+    transform: rotate(-25deg);
+}
+.ns-item p{
+    color: white;
+    font-size: 14px;
+    margin: auto;
+    font-weight: 400;
+}
+.ns-item h2{
+    color: white;
+    font-size: 22px;
+    margin: auto;
+}
+
+.footer-description{
+    padding: 25px;
 }
 .last-footer{
   margin-top: 3,125rem;
@@ -411,4 +508,56 @@ margin-bottom:6.875rem ;
 
 .hide{
   display: none;
+}
+
+.discount-content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.discount-content p{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.deals-discounts-parent{
+    background-image: url("../Images/Rectangle 12.png");
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.deals-discounts-parent > div{
+    width: 50%;
+}
+
+.deals-discounts{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 15px;
+}
+
+.book-now-tour{
+    color: white;
+    border: none;
+    width: 150px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+}
+.book-price{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 }
